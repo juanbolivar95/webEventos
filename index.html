@@ -15,10 +15,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.6.2/dist/simpleParallax.min.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
+
+    <div id="spiral"></div>
 
     <header class="header">
 
@@ -100,7 +103,7 @@
                                 <a class="nav-link" href="#">Servicios</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Eventos</a>
+                                <a class="nav-link" href="./events.html">Eventos</a>
                             </li>
                         </ul>
                         <div class="d-flex justify-content-center align-items-center">
@@ -122,19 +125,21 @@
             </nav>
         </div>
 
-        <section class="hero">
+        <div class="hero">
+            <img src="assets/images/bg-image.jpg" alt="Hero background" class="hero-bg parallax-img">
             <div class="hero__content">
                 <h1>Próximos Eventos</h1>
                 <p>No te pierdas las actividades más importantes del año.</p>
                 <a href="#" class="btn-cta">Ver más</a>
             </div>
-        </section>
+        </div>
+
 
     </header>
 
     <main>
-        <section class="section-py bg-body landing-reviews">
-            <div class="container">
+        <section class="section-py bg-body">
+            <div class="container mb-5">
                 <div class="text-center mb-3 pb-1">
                     <span class="badge bg-label-primary">Próximos eventos</span>
                 </div>
@@ -152,7 +157,8 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="event-container swiper-slide">
-                                    <img src="./assets/images/bg-image.jpg" class="event-img" alt="Event Image">
+                                    <img src="./assets/images/bg-image.jpg" class="event-img parallax-img"
+                                        alt="Event Image">
 
                                     <div class="event-date">
                                         05 <span>Agosto</span>
@@ -188,7 +194,8 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="event-container swiper-slide">
-                                    <img src="./assets/images/bg-image.jpg" class="event-img" alt="Event Image">
+                                    <img src="./assets/images/bg-image.jpg" class="event-img parallax-img"
+                                        alt="Event Image">
 
                                     <div class="event-date">
                                         05 <span>Agosto</span>
@@ -224,7 +231,8 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="event-container swiper-slide">
-                                    <img src="./assets/images/bg-image.jpg" class="event-img" alt="Event Image">
+                                    <img src="./assets/images/bg-image.jpg" class="event-img parallax-img"
+                                        alt="Event Image">
 
                                     <div class="event-date">
                                         05 <span>Agosto</span>
@@ -260,7 +268,8 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="event-container swiper-slide">
-                                    <img src="./assets/images/bg-image.jpg" class="event-img" alt="Event Image">
+                                    <img src="./assets/images/bg-image.jpg" class="event-img parallax-img"
+                                        alt="Event Image">
 
                                     <div class="event-date">
                                         05 <span>Agosto</span>
@@ -296,7 +305,8 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="event-container swiper-slide">
-                                    <img src="./assets/images/bg-image.jpg" class="event-img" alt="Event Image">
+                                    <img src="./assets/images/bg-image.jpg" class="event-img parallax-img"
+                                        alt="Event Image">
 
                                     <div class="event-date">
                                         05 <span>Agosto</span>
@@ -332,7 +342,8 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="event-container swiper-slide">
-                                    <img src="./assets/images/bg-image.jpg" class="event-img" alt="Event Image">
+                                    <img src="./assets/images/bg-image.jpg" class="event-img parallax-img"
+                                        alt="Event Image">
 
                                     <div class="event-date">
                                         05 <span>Agosto</span>
@@ -368,7 +379,8 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="event-container swiper-slide">
-                                    <img src="./assets/images/bg-image.jpg" class="event-img" alt="Event Image">
+                                    <img src="./assets/images/bg-image.jpg" class="event-img parallax-img"
+                                        alt="Event Image">
 
                                     <div class="event-date">
                                         05 <span>Agosto</span>
@@ -404,7 +416,8 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="event-container swiper-slide">
-                                    <img src="./assets/images/bg-image.jpg" class="event-img" alt="Event Image">
+                                    <img src="./assets/images/bg-image.jpg" class="event-img parallax-img"
+                                        alt="Event Image">
 
                                     <div class="event-date">
                                         05 <span>Agosto</span>
@@ -440,7 +453,8 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="event-container swiper-slide">
-                                    <img src="./assets/images/bg-image.jpg" class="event-img" alt="Event Image">
+                                    <img src="./assets/images/bg-image.jpg" class="event-img parallax-img"
+                                        alt="Event Image">
 
                                     <div class="event-date">
                                         05 <span>Agosto</span>
@@ -485,8 +499,159 @@
                 </div>
             </div>
         </section>
-    </main>
 
+        <section class="section-py results">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="d-flex justify-content-center align-items-center gap-4">
+                            <div class="results__icon">
+                                <i class="fa-solid fa-medal"></i>
+                            </div>
+                            <div class="results__title">
+                                <h3>1050+</h3>
+                                <span>Eventos realizados</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="d-flex justify-content-center align-items-center gap-4">
+                            <div class="results__icon">
+                                <i class="fa-solid fa-icons"></i>
+                            </div>
+                            <div class="results__title">
+                                <h3>900+</h3>
+                                <span>Eventos musica</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="d-flex justify-content-center align-items-center gap-4">
+                            <div class="results__icon">
+                                <i class="fa-solid fa-ranking-star"></i>
+                            </div>
+                            <div class="results__title">
+                                <h3>700+</h3>
+                                <span>Eventos deporte</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="d-flex justify-content-center align-items-center gap-4">
+                            <div class="results__icon">
+                                <i class="fa-solid fa-person-chalkboard"></i>
+                            </div>
+                            <div class="results__title">
+                                <h3>300+</h3>
+                                <span>Eventos conferencias</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-py bg-body gallery">
+            <div class="container">
+                <div class="text-center mb-3 pb-1">
+                    <span class="badge bg-label-primary">Galleria de eventos</span>
+                </div>
+                <h3 class="text-center mb-4">
+                    <span class="position-relative fw-bold z-1">
+                        Imagenes de los
+                        <img src="./assets/images/section-title-icon.png" alt="laptop charging"
+                            class="section-title-img position-absolute object-fit-contain bottom-0 z-n1">
+                    </span>
+                    Eventos Inolvidables
+                </h3>
+
+                <div class="gallery__row g-4">
+                    <!-- Big -->
+                    <div class="gallery__card big"
+                        style="background-image: url('https://picsum.photos/id/1015/600/400');">
+                        <div class="gallery__info">
+                            <p><i class="bi bi-clock"></i> 08:00am - 22:00pm</p>
+                            <h5>Business Conference In Australia</h5>
+                        </div>
+                    </div>
+
+                    <!-- Img1 -->
+                    <div class="gallery__card img1"
+                        style="background-image: url('https://picsum.photos/id/1016/600/400');">
+                        <div class="gallery__info">
+                            <p><i class="bi bi-clock"></i> 08:00am - 22:00pm</p>
+                            <h5>Melbourne Business Mastermind</h5>
+                        </div>
+                    </div>
+
+                    <!-- Img2 -->
+                    <div class="gallery__card img2"
+                        style="background-image: url('https://picsum.photos/id/1018/600/400');">
+                        <div class="gallery__info">
+                            <p><i class="bi bi-clock"></i> 08:00am - 22:00pm</p>
+                            <h5>Canberra Commerce Convention</h5>
+                        </div>
+                    </div>
+
+                    <!-- Img3 -->
+                    <div class="gallery__card img3"
+                        style="background-image: url('https://picsum.photos/id/1021/600/400');">
+                        <div class="gallery__info">
+                            <p><i class="bi bi-clock"></i> 08:00am - 22:00pm</p>
+                            <h5>Sydney Leadership Symposium</h5>
+                        </div>
+                    </div>
+
+                    <!-- Img4 -->
+                    <div class="gallery__card img4"
+                        style="background-image: url('https://picsum.photos/id/1022/600/400');">
+                        <div class="gallery__info">
+                            <p><i class="bi bi-clock"></i> 08:00am - 22:00pm</p>
+                            <h5>Innovative Leadership Summit</h5>
+                        </div>
+                    </div>
+
+                    <!-- Img5 -->
+                    <div class="gallery__card img5"
+                        style="background-image: url('https://picsum.photos/id/1023/600/400');">
+                        <div class="gallery__info">
+                            <p><i class="bi bi-clock"></i> 08:00am - 22:00pm</p>
+                            <h5>Future Tech Expo</h5>
+                        </div>
+                    </div>
+
+                    <!-- Img6 -->
+                    <div class="gallery__card img6"
+                        style="background-image: url('https://picsum.photos/id/1024/600/400');">
+                        <div class="gallery__info">
+                            <p><i class="bi bi-clock"></i> 08:00am - 22:00pm</p>
+                            <h5>Global Business Forum</h5>
+                        </div>
+                    </div>
+
+                    <!-- Img7 -->
+                    <div class="gallery__card img7"
+                        style="background-image: url('https://picsum.photos/id/1025/600/400');">
+                        <div class="gallery__info">
+                            <p><i class="bi bi-clock"></i> 08:00am - 22:00pm</p>
+                            <h5>Startup Weekend</h5>
+                        </div>
+                    </div>
+
+                    <!-- Img8 -->
+                    <div class="gallery__card img8"
+                        style="background-image: url('https://picsum.photos/id/1026/600/400');">
+                        <div class="gallery__info">
+                            <p><i class="bi bi-clock"></i> 08:00am - 22:00pm</p>
+                            <h5>Design Thinking Lab</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
         <div class="offcanvas-header flex-column">
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
@@ -563,7 +728,8 @@
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./assets/js/carousel-swiper.js"></script>
-
+    <script type="module" src="./assets/js/simpleParallax.js"></script>
+    <script type="module" src="./assets/js/loader.js"></script>
 </body>
 
 </html>
