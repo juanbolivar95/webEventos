@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "icon": "fa-brands fa-facebook",
+    "name": "facebook",
+    "url": "#"
+  },
+  {
+    "id": 2,
+    "icon": "fa-brands fa-instagram",
+    "name": "instagram",
+    "url": "#"
+  },
+  {
+    "id": 3,
+    "icon": "fa-brands fa-youtube",
+    "name": "youtube",
+    "url": "#"
+  },
+  {
+    "id": 4,
+    "icon": "fa-brands fa-whatsapp",
+    "name": "whatsapp",
+    "url": "#"
+  }
+]
